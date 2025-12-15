@@ -13,11 +13,14 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
+   <!-- Whether or not the smooth display feature is enabled in settings. -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Whether or not the smooth display feature is enabled in settings. -->
     <bool name="config_smoothDisplayAvailable">true</bool>
 
     <!-- Whether the device generally supports always-on display. -->
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+
+    <!-- Whether or not the min refresh rate feature is enabled in settings. -->
+    <bool name="config_minRefreshRateAvailable">true</bool>
 </resources>
