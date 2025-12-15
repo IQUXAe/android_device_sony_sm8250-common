@@ -47,11 +47,7 @@ on init
     # SONY: Enable wakeup irq module
     write /sys/devices/platform/wakeup_debug.0/enable 1
 
-    # Scheduler for UFS 3.0
-    write /sys/block/sda/queue/scheduler mq-deadline
-    write /sys/block/sdb/queue/scheduler mq-deadline
-    write /sys/block/sdc/queue/scheduler mq-deadline
-    write /sys/block/dm-0/queue/scheduler mq-deadline
+
 
     # Add a cpuset for the camera daemon
     # We want all cores for camera
