@@ -281,15 +281,15 @@ on post-fs-data
     chown cameraserver camera /sys/devices/virtual/input/rgbcir_sensor/chip_id
     chown cameraserver camera /sys/devices/virtual/input/rgbcir_sensor/chip_pow
 
-    chmod 666 /sys/devices/virtual/input/rgbcir_sensor/als_Itime
-    chmod 666 /sys/devices/virtual/input/rgbcir_sensor/als_auto_gain
-    chmod 666 /sys/devices/virtual/input/rgbcir_sensor/als_channel
-    chmod 666 /sys/devices/virtual/input/rgbcir_sensor/als_gain
-    chmod 666 /sys/devices/virtual/input/rgbcir_sensor/als_persist
-    chmod 666 /sys/devices/virtual/input/rgbcir_sensor/als_power_state
-    chmod 666 /sys/devices/virtual/input/rgbcir_sensor/als_thres
-    chmod 666 /sys/devices/virtual/input/rgbcir_sensor/als_thresh_deltaP
-    chmod 666 /sys/devices/virtual/input/rgbcir_sensor/chip_pow
+    chmod 0660 /sys/devices/virtual/input/rgbcir_sensor/als_Itime
+    chmod 0660 /sys/devices/virtual/input/rgbcir_sensor/als_auto_gain
+    chmod 0660 /sys/devices/virtual/input/rgbcir_sensor/als_channel
+    chmod 0660 /sys/devices/virtual/input/rgbcir_sensor/als_gain
+    chmod 0660 /sys/devices/virtual/input/rgbcir_sensor/als_persist
+    chmod 0660 /sys/devices/virtual/input/rgbcir_sensor/als_power_state
+    chmod 0660 /sys/devices/virtual/input/rgbcir_sensor/als_thres
+    chmod 0660 /sys/devices/virtual/input/rgbcir_sensor/als_thresh_deltaP
+    chmod 0660 /sys/devices/virtual/input/rgbcir_sensor/chip_pow
 
     restorecon /sys/devices/virtual/input/rgbcir_sensor/als_Itime
     restorecon /sys/devices/virtual/input/rgbcir_sensor/als_all

@@ -53,3 +53,4 @@ odm                                                     /odm                   e
 /dev/block/bootdevice/by-name/mdm1m9kefs1               /modem_fs1             emmc    defaults                                             defaults
 /dev/block/bootdevice/by-name/mdm1m9kefs2               /modem_fs2             emmc    defaults                                             defaults
 
+/dev/block/zram0                                            none                   swap    defaults                                             zramsize=75%
