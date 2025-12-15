@@ -58,6 +58,7 @@ persist.vendor.ssr.restart_level=ALL_ENABLE
 # ro.semc.product.model=XQ-AU52
 # ro.semc.product.name=Xperia 1 II
 # ro.semc.version.fs=GENERIC
+ro.lineage.maintainer=IQUXAe
 # ro.semc.version.fs_revision=59.0.A.8.33
 # ro.semc.version.sw=1311-7920
 # ro.semc.version.sw_revision=59.0.A.8.33
