@@ -44,7 +44,7 @@ PRODUCT_PACKAGES += \
     SimSingleResCommon \
     SonyEdoFrameworksResCommon \
     SonyEdoSettingsProviderOverlayCommon \
-
+    SonyEdoSettingsResCommon \
     SonyEdoSystemUIResCommon \
     SonyEdoTelephonyResCommon \
     WifiResCommon
