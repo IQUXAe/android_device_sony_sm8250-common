@@ -58,8 +58,8 @@
     </carrier_config>
     <carrier_config mcc="001" mnc="01" sku="jp_kddi">
         <string name="carrier_name_string">au</string>
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
-        <boolean name="hide_lte_plus_data_icon_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
+        <boolean name="hide_lte_plus_data_icon_bool" value="false" />
         <boolean name="s_config_enable_ut_bool" value="true" />
         <string-array name="s_preferred_network_mode_rat_names_string_array" num="7">
             <item value="2G" />
@@ -86,7 +86,7 @@
             <item value="-115" />
             <item value="-105" />
         </int-array>
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="001" mnc="02" spn="GTE">
@@ -174,7 +174,7 @@
         <string name="default_vm_number_string">+31654501233</string>
         <boolean name="display_hd_audio_property_bool" value="false" />
         <boolean name="enabledMMS" value="false" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <string-array name="read_only_apn_types_string_array" num="0" />
         <boolean name="s_config_enable_ut_bool" value="true" />
         <boolean name="s_config_enable_ut_only_when_ims_registered_bool" value="true" />
@@ -193,7 +193,7 @@
     </carrier_config>
     <carrier_config gid1="BAE0000000000000" mcc="204" mnc="04">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <string name="carrier_name_string">Verizon</string>
         <string name="gps.lpp_profile">3</string>
         <string name="gps.use_emergency_pdn_for_emergency_supl">1</string>
@@ -219,12 +219,12 @@
         </int-array>
         <int name="parameters_used_for_lte_signal_bar_int" value="1" />
         <boolean name="show_ims_registration_status_bool" value="true" />
-        <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="204" mnc="08">
         <boolean name="carrier_volte_available_bool" value="true" />
         <string name="default_vm_number_string">1233</string>
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="enabledMMS" value="false" />
         <boolean name="gsm_cdma_calls_can_be_hd_audio" value="true" />
         <string name="s_config_enable_ut_allowed_networks_string">3G,IWLAN,LTE</string>
@@ -245,7 +245,7 @@
     <carrier_config mcc="204" mnc="12">
         <boolean name="carrier_volte_available_bool" value="true" />
         <string name="default_vm_number_string">1233</string>
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="enabledMMS" value="false" />
         <boolean name="gsm_cdma_calls_can_be_hd_audio" value="true" />
         <string name="s_config_enable_ut_allowed_networks_string">3G,IWLAN,LTE</string>
@@ -376,7 +376,7 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <string name="default_vm_number_string">+31624001233</string>
         <boolean name="display_hd_audio_property_bool" value="false" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="enabledMMS" value="false" />
         <boolean name="s_config_enable_ut_bool" value="true" />
         <string-array name="s_preferred_network_mode_marshal_string_array" num="4">
@@ -465,11 +465,11 @@
             <item value="5G" />
         </string-array>
         <int name="smsToMmsTextThreshold" value="5" />
-        <boolean name="carrier_volte_available_bool" value="false" />
+        <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
     <carrier_config gid1="4E524A31" mcc="206" mnc="01">
         <int name="maxMessageSize" value="614400" />
-        <boolean name="carrier_volte_available_bool" value="false" />
+        <boolean name="carrier_volte_available_bool" value="true" />
         <string-array name="s_preferred_network_mode_marshal_string_array" num="4">
             <item value="26" />
             <item value="9" />
@@ -503,8 +503,8 @@
             <item value="dun" />
             <item value="supl" />
         </string-array>
-        <boolean name="editable_wfc_mode_bool" value="false" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <boolean name="s_show_volte_icon_in_status_bar_bool" value="true" />
         <int name="smsToMmsTextThreshold" value="200" />
         <boolean name="smsUsesSimpleCharactersOnly" value="true" />
@@ -579,10 +579,10 @@
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <string name="default_vm_number_string">888</string>
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="groupChatDefaultsToMMS" value="true" />
         <boolean name="gsm_cdma_calls_can_be_hd_audio" value="true" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <int name="maxMessageSize" value="614400" />
         <string-array name="read_only_apn_types_string_array" num="4">
             <item value="dun" />
@@ -673,8 +673,8 @@
         <int name="smsToMmsTextThreshold" value="10" />
     </carrier_config>
     <carrier_config gid1="4E524A31" mcc="208" mnc="10">
-        <boolean name="carrier_wfc_ims_available_bool" value="false" />
-        <boolean name="carrier_volte_available_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
         <int name="maxMessageSize" value="614400" />
         <string-array name="s_preferred_network_mode_marshal_string_array" num="4">
             <item value="26" />
@@ -715,7 +715,7 @@
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <string name="s_config_enable_ut_allowed_networks_string">3G,LTE</string>
         <boolean name="s_config_enable_ut_bool" value="true" />
         <boolean name="s_config_enable_ut_only_when_ims_registered_bool" value="true" />
@@ -803,7 +803,7 @@
         <string name="default_vm_number_string">22177</string>
         <boolean name="display_hd_audio_property_bool" value="false" />
         <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <string-array name="read_only_apn_types_string_array" num="0" />
         <boolean name="s_config_enable_ut_bool" value="true" />
         <boolean name="s_config_enable_ut_only_when_ims_registered_bool" value="true" />
@@ -859,7 +859,7 @@
             <item value="21405" />
             <item value="21407" />
         </string-array>
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <int name="maxMessageSize" value="1048576" />
         <string-array name="read_only_apn_types_string_array" num="2">
             <item value="ims" />
@@ -886,7 +886,7 @@
             <item value="21405" />
             <item value="21407" />
         </string-array>
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <int name="maxMessageSize" value="1048576" />
         <string-array name="read_only_apn_types_string_array" num="3">
             <item value="default" />
@@ -904,7 +904,7 @@
         </string-array>
         <string name="default_vm_number_string">1222</string>
         <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <int name="maxMessageSize" value="1048576" />
         <string-array name="read_only_apn_types_string_array" num="0" />
         <boolean name="show_spn_for_home_in_choose_network_setting_bool" value="true" />
@@ -940,7 +940,7 @@
             <item value="21420" />
             <item value="21421" />
         </string-array>
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <int name="maxMessageSize" value="1048576" />
         <string-array name="read_only_apn_types_string_array" num="0" />
         <boolean name="show_spn_for_home_in_choose_network_setting_bool" value="true" />
@@ -1123,7 +1123,7 @@
             <item value="21419" />
             <item value="21420" />
         </string-array>
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <int name="maxMessageSize" value="1048576" />
         <string-array name="read_only_apn_types_string_array" num="0" />
         <boolean name="show_spn_for_home_in_choose_network_setting_bool" value="true" />
@@ -1217,7 +1217,7 @@
             <item value="21420" />
             <item value="21421" />
         </string-array>
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <int name="maxMessageSize" value="1048576" />
         <string-array name="read_only_apn_types_string_array" num="0" />
         <boolean name="show_spn_for_home_in_choose_network_setting_bool" value="true" />
@@ -1252,7 +1252,7 @@
             <item value="21419" />
             <item value="21420" />
         </string-array>
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <int name="maxMessageSize" value="1048576" />
         <string-array name="read_only_apn_types_string_array" num="0" />
         <boolean name="show_spn_for_home_in_choose_network_setting_bool" value="true" />
@@ -1476,7 +1476,7 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <string name="default_vm_number_string">3311</string>
         <boolean name="display_hd_audio_property_bool" value="false" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="s_config_enable_ut_bool" value="true" />
         <string-array name="s_preferred_network_mode_marshal_string_array" num="4">
             <item value="1" />
@@ -1556,7 +1556,7 @@
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <string name="default_vm_number_string">555</string>
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="groupChatDefaultsToMMS" value="true" />
         <boolean name="gsm_cdma_calls_can_be_hd_audio" value="true" />
         <string-array name="read_only_apn_types_string_array" num="2">
@@ -1583,7 +1583,7 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <string name="default_vm_number_string">+41794997979</string>
         <boolean name="display_hd_audio_property_bool" value="false" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="enableSMSDeliveryReports" value="false" />
         <boolean name="enableMMSDeliveryReports" value="false" />
         <boolean name="enableWapPushSI" value="true" />
@@ -1649,7 +1649,7 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <string name="default_vm_number_string">+420603123311</string>
         <boolean name="display_hd_audio_property_bool" value="false" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <string-array name="read_only_apn_types_string_array" num="2">
             <item value="ims" />
             <item value="ut" />
@@ -1671,7 +1671,7 @@
             <item value="TDSCDMA" />
             <item value="5G" />
         </string-array>
-        <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
         <boolean name="show_ims_registration_status_bool" value="true" />
         <int name="wfc_data_spn_format_idx_int" value="4" />
         <int name="wfc_spn_format_idx_int" value="4" />
@@ -1702,7 +1702,7 @@
         <boolean name="display_hd_audio_property_bool" value="false" />
         <boolean name="enableWapPushSI" value="true" />
         <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <string-array name="read_only_apn_types_string_array" num="0" />
         <int name="recipientLimit" value="10" />
         <boolean name="s_config_enable_ut_bool" value="true" />
@@ -2075,24 +2075,24 @@
         <boolean name="show_spn_for_home_in_choose_network_setting_bool" value="true" />
     </carrier_config>
     <carrier_config cid="2093" name="tesco">
-        <boolean name="carrier_wfc_ims_available_bool" value="false" />
-        <boolean name="carrier_volte_available_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
     <carrier_config cid="2117" name="talktalk">
-        <boolean name="carrier_wfc_ims_available_bool" value="false" />
-        <boolean name="carrier_volte_available_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
     <carrier_config cid="2118" name="giffgaff">
-        <boolean name="carrier_wfc_ims_available_bool" value="false" />
-        <boolean name="carrier_volte_available_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
     <carrier_config cid="1507" name="manx telecom">
-        <boolean name="carrier_wfc_ims_available_bool" value="false" />
-        <boolean name="carrier_volte_available_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
     <carrier_config cid="10002" name="o2prepaid_gb">
-        <boolean name="carrier_wfc_ims_available_bool" value="false" />
-        <boolean name="carrier_volte_available_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="234" mnc="15">
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
@@ -2105,11 +2105,11 @@
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <string name="default_vm_number_string">121</string>
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="enableWapPushSI" value="true" />
         <boolean name="groupChatDefaultsToMMS" value="false" />
         <boolean name="gsm_cdma_calls_can_be_hd_audio" value="true" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <string-array name="read_only_apn_types_string_array" num="0" />
         <boolean name="s_config_enable_ut_bool" value="true" />
         <string-array name="s_preferred_network_mode_rat_names_string_array" num="7">
@@ -2146,7 +2146,7 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <string name="default_vm_number_string">+447782333123</string>
         <boolean name="display_hd_audio_property_bool" value="false" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="enableGroupMms" value="false" />
         <string-array name="gsm_nonroaming_networks_string_array" num="8">
             <item value="23410" />
@@ -2158,7 +2158,7 @@
             <item value="23434" />
             <item value="23486" />
         </string-array>
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <int-array name="lte_rsrp_thresholds_int_array" num="4">
             <item value="-126" />
             <item value="-112" />
@@ -2205,7 +2205,7 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <string name="default_vm_number_string">+447782333123</string>
         <boolean name="display_hd_audio_property_bool" value="false" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="enableGroupMms" value="false" />
         <string-array name="gsm_nonroaming_networks_string_array" num="8">
             <item value="23410" />
@@ -2217,7 +2217,7 @@
             <item value="23434" />
             <item value="23486" />
         </string-array>
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <int-array name="lte_rsrp_thresholds_int_array" num="4">
             <item value="-126" />
             <item value="-112" />
@@ -2264,7 +2264,7 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <string name="default_vm_number_string">+447782333123</string>
         <boolean name="display_hd_audio_property_bool" value="false" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="enableGroupMms" value="false" />
         <string-array name="gsm_nonroaming_networks_string_array" num="8">
             <item value="23410" />
@@ -2276,7 +2276,7 @@
             <item value="23434" />
             <item value="23486" />
         </string-array>
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <int-array name="lte_rsrp_thresholds_int_array" num="4">
             <item value="-126" />
             <item value="-112" />
@@ -2323,15 +2323,15 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <string name="default_vm_number_string">+447953222222</string>
         <boolean name="display_voicemail_number_as_default_call_forwarding_number" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="gsm_cdma_calls_can_be_hd_audio" value="true" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <string-array name="read_only_apn_types_string_array" num="3">
             <item value="default" />
             <item value="ims" />
             <item value="mms" />
         </string-array>
-        <boolean name="hide_lte_plus_data_icon_bool" value="true" />
+        <boolean name="hide_lte_plus_data_icon_bool" value="false" />
         <boolean name="s_config_enable_ut_bool" value="true" />
         <string-array name="s_preferred_network_mode_marshal_string_array" num="1">
             <item value="26" />
@@ -2464,15 +2464,15 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <string name="default_vm_number_string">+447953222222</string>
         <boolean name="display_voicemail_number_as_default_call_forwarding_number" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="gsm_cdma_calls_can_be_hd_audio" value="true" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <string-array name="read_only_apn_types_string_array" num="3">
             <item value="default" />
             <item value="ims" />
             <item value="mms" />
         </string-array>
-        <boolean name="hide_lte_plus_data_icon_bool" value="true" />
+        <boolean name="hide_lte_plus_data_icon_bool" value="false" />
         <boolean name="s_config_enable_ut_bool" value="true" />
         <string-array name="s_preferred_network_mode_marshal_string_array" num="1">
             <item value="26" />
@@ -2524,7 +2524,7 @@
         <int name="smsToMmsTextThreshold" value="5" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="false" />
-        <boolean name="support_ims_conference_call_bool" value="false" />
+        <boolean name="support_ims_conference_call_bool" value="true" />
         <boolean name="s_config_enable_ut_bool" value="true" />
         <boolean name="s_config_enable_ut_when_roaming_bool" value="false" />
         <boolean name="s_config_enable_ut_only_when_ims_registered_bool" value="true" />
@@ -2533,7 +2533,7 @@
         <int name="wfc_spn_format_idx_int" value="11" />
     </carrier_config>
     <carrier_config board="kona" mcc="234" mnc="38">
-        <boolean name="carrier_wfc_ims_available_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="support_ims_conference_call_bool" value="true" />
         <boolean name="s_config_enable_ut_bool" value="false" />
         <boolean name="display_hd_audio_property_bool" value="true" />
@@ -2606,7 +2606,7 @@
         </string-array>
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="display_voicemail_number_as_default_call_forwarding_number" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <string-array name="gsm_nonroaming_networks_string_array" num="1">
             <item value="23410" />
         </string-array>
@@ -2646,7 +2646,7 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <string name="default_vm_number_string">+447782333123</string>
         <boolean name="display_hd_audio_property_bool" value="false" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="enableGroupMms" value="false" />
         <string-array name="gsm_nonroaming_networks_string_array" num="8">
             <item value="23410" />
@@ -2658,7 +2658,7 @@
             <item value="23434" />
             <item value="23486" />
         </string-array>
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <int-array name="lte_rsrp_thresholds_int_array" num="4">
             <item value="-126" />
             <item value="-112" />
@@ -2884,7 +2884,7 @@
         </string-array>
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="display_voicemail_number_as_default_call_forwarding_number" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <string-array name="gsm_nonroaming_networks_string_array" num="1">
             <item value="23410" />
         </string-array>
@@ -3045,7 +3045,7 @@
         <int name="wfc_spn_format_idx_int" value="11" />
     </carrier_config>
     <carrier_config board="kona" mcc="242" mnc="14">
-        <boolean name="carrier_wfc_ims_available_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="244">
         <boolean name="groupChatDefaultsToMMS" value="false" />
@@ -3164,7 +3164,7 @@
         <int name="wfc_spn_format_idx_int" value="6" />
     </carrier_config>
     <carrier_config board="kona" mcc="248" mnc="01">
-        <boolean name="carrier_wfc_ims_available_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="248" mnc="02">
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
@@ -3215,7 +3215,7 @@
     </carrier_config>
     <carrier_config mcc="260">
         <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
         <boolean name="smsUsesSimpleCharactersOnly" value="true" />
     </carrier_config>
     <carrier_config mcc="260" mnc="01">
@@ -3290,7 +3290,7 @@
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <string name="default_vm_number_string">*501</string>
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="groupChatDefaultsToMMS" value="true" />
         <boolean name="gsm_cdma_calls_can_be_hd_audio" value="true" />
         <string-array name="read_only_apn_types_string_array" num="2">
@@ -3327,7 +3327,7 @@
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <string name="default_vm_number_string">*501</string>
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="groupChatDefaultsToMMS" value="true" />
         <boolean name="gsm_cdma_calls_can_be_hd_audio" value="true" />
         <string-array name="read_only_apn_types_string_array" num="2">
@@ -3365,7 +3365,7 @@
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <string name="default_vm_number_string">*501</string>
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="groupChatDefaultsToMMS" value="true" />
         <boolean name="gsm_cdma_calls_can_be_hd_audio" value="true" />
         <string-array name="read_only_apn_types_string_array" num="3">
@@ -3459,7 +3459,7 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <string name="default_vm_number_string">3311</string>
         <boolean name="display_hd_audio_property_bool" value="false" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="s_config_enable_ut_bool" value="true" />
         <string-array name="s_preferred_network_mode_marshal_string_array" num="4">
             <item value="1" />
@@ -3476,7 +3476,7 @@
             <item value="TDSCDMA" />
             <item value="5G" />
         </string-array>
-        <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
         <boolean name="show_ims_registration_status_bool" value="true" />
         <int name="wfc_data_spn_format_idx_int" value="3" />
         <int name="wfc_spn_format_idx_int" value="3" />
@@ -3492,10 +3492,10 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <string name="default_vm_number_string">5500</string>
         <boolean name="display_hd_audio_property_bool" value="false" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="enableWapPushSI" value="true" />
         <boolean name="groupChatDefaultsToMMS" value="false" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <string-array name="read_only_apn_types_string_array" num="0" />
         <boolean name="s_config_enable_ut_bool" value="true" />
         <string-array name="s_preferred_network_mode_rat_names_string_array" num="7">
@@ -3640,7 +3640,7 @@
         <string name="default_vm_number_string">123</string>
         <boolean name="display_hd_audio_property_bool" value="false" />
         <boolean name="enableWapPushSI" value="true" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <boolean name="groupChatDefaultsToMMS" value="false" />
         <int name="maxMessageSize" value="614400" />
         <string-array name="read_only_apn_types_string_array" num="0" />
@@ -3708,7 +3708,7 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <string name="default_vm_number_string">123</string>
         <boolean name="display_hd_audio_property_bool" value="false" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <string-array name="read_only_apn_types_string_array" num="0" />
         <string-array name="s_preferred_network_mode_rat_names_string_array" num="7">
             <item value="2G" />
@@ -3764,12 +3764,12 @@
     <carrier_config mcc="272" mnc="01">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="display_hd_audio_property_bool" value="false" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <boolean name="s_config_enable_ut_bool" value="true" />
         <boolean name="s_config_enable_ut_when_roaming_bool" value="false" />
         <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
         <int name="wfc_spn_format_idx_int" value="1" />
@@ -3878,11 +3878,11 @@
         <boolean name="smsUsesSimpleCharactersOnly" value="true" />
     </carrier_config>
     <carrier_config mcc="310">
-        <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="310" mnc="030">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <int name="maxMessageSize" value="1048576" />
         <boolean name="s_config_enable_ut_bool" value="true" />
         <string-array name="gsm_roaming_networks_string_array" num="5">
@@ -4015,7 +4015,7 @@
     </carrier_config>
     <carrier_config mcc="310" mnc="070">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <int name="maxMessageSize" value="1048576" />
         <boolean name="s_config_enable_ut_bool" value="true" />
         <string-array name="gsm_roaming_networks_string_array" num="5">
@@ -4148,7 +4148,7 @@
     </carrier_config>
     <carrier_config mcc="310" mnc="090">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <int name="maxMessageSize" value="1048576" />
         <boolean name="s_config_enable_ut_bool" value="true" />
         <string-array name="gsm_roaming_networks_string_array" num="5">
@@ -4281,7 +4281,7 @@
     </carrier_config>
     <carrier_config mcc="310" mnc="150">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <int name="maxMessageSize" value="1048576" />
         <boolean name="s_config_enable_ut_bool" value="true" />
         <string-array name="gsm_roaming_networks_string_array" num="5">
@@ -4543,7 +4543,7 @@
     </carrier_config>
     <carrier_config mcc="310" mnc="170">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <int name="maxMessageSize" value="1048576" />
         <boolean name="s_config_enable_ut_bool" value="true" />
         <string-array name="gsm_roaming_networks_string_array" num="5">
@@ -5703,7 +5703,7 @@
     </carrier_config>
     <carrier_config mcc="310" mnc="280">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <int name="maxMessageSize" value="1048576" />
         <boolean name="s_config_enable_ut_bool" value="true" />
         <string-array name="gsm_roaming_networks_string_array" num="5">
@@ -6094,7 +6094,7 @@
     </carrier_config>
     <carrier_config mcc="310" mnc="380">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <int name="maxMessageSize" value="1048576" />
         <boolean name="s_config_enable_ut_bool" value="true" />
         <string-array name="gsm_roaming_networks_string_array" num="5">
@@ -6226,7 +6226,7 @@
         <int name="parameters_used_for_lte_signal_bar_int" value="1" />
     </carrier_config>
     <carrier_config mcc="310" mnc="410">
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <int name="maxMessageSize" value="1048576" />
         <boolean name="s_config_enable_ut_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -6618,7 +6618,7 @@
     </carrier_config>
     <carrier_config mcc="310" mnc="560">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <int name="maxMessageSize" value="1048576" />
         <boolean name="s_config_enable_ut_bool" value="true" />
         <string-array name="gsm_roaming_networks_string_array" num="5">
@@ -7267,7 +7267,7 @@
     </carrier_config>
     <carrier_config mcc="310" mnc="680">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <int name="maxMessageSize" value="1048576" />
         <boolean name="s_config_enable_ut_bool" value="true" />
         <string-array name="gsm_roaming_networks_string_array" num="5">
@@ -7528,10 +7528,10 @@
         <int name="parameters_used_for_lte_signal_bar_int" value="1" />
     </carrier_config>
     <carrier_config mcc="311">
-        <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="311" mnc="180">
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <int name="maxMessageSize" value="1048576" />
         <boolean name="s_config_enable_ut_bool" value="true" />
         <boolean name="use_only_rsrp_for_lte_signal_bar_bool" value="true" />
@@ -7665,7 +7665,7 @@
     </carrier_config>
     <carrier_config mcc="311" mnc="480">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <string name="carrier_name_string">Verizon</string>
         <string name="gps.lpp_profile">3</string>
         <string name="gps.use_emergency_pdn_for_emergency_supl">1</string>
@@ -7828,7 +7828,7 @@
     <carrier_config mcc="440">
         <boolean name="carrier_volte_available_bool" value="true" />
         <string name="default_vm_number_string" />
-        <boolean name="hide_lte_plus_data_icon_bool" value="true" />
+        <boolean name="hide_lte_plus_data_icon_bool" value="false" />
         <string-array name="s_preferred_network_mode_rat_names_string_array" num="7">
             <item value="2G" />
             <item value="3G" />
@@ -7897,11 +7897,11 @@
     </carrier_config>
     <carrier_config mcc="440" mnc="11" sku="rakuten">
         <string name="default_vm_number_string" />
-        <boolean name="hide_lte_plus_data_icon_bool" value="true" />
+        <boolean name="hide_lte_plus_data_icon_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="440" mnc="20" sku="jp_sbm">
         <boolean name="carrier_force_disable_etws_cmas_test_bool" value="true" />
-        <boolean name="hide_lte_plus_data_icon_bool" value="true" />
+        <boolean name="hide_lte_plus_data_icon_bool" value="false" />
         <string-array name="s_preferred_network_mode_rat_names_string_array" num="7">
             <item value="GSM" />
             <item value="3G" />
@@ -7934,8 +7934,8 @@
     <carrier_config gid1="10" mcc="440" mnc="51" sku="jp_kddi">
         <string name="carrier_name_string">au</string>
         <boolean name="enabledMMS" value="false" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
-        <boolean name="hide_lte_plus_data_icon_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
+        <boolean name="hide_lte_plus_data_icon_bool" value="false" />
         <boolean name="s_config_enable_ut_bool" value="true" />
         <string-array name="s_preferred_network_mode_rat_names_string_array" num="7">
             <item value="2G" />
@@ -7962,12 +7962,12 @@
             <item value="-115" />
             <item value="-105" />
         </int-array>
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="false" />
     </carrier_config>
     <carrier_config gid1="20" mcc="440" mnc="51" sku="jp_kddi">
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
-        <boolean name="hide_lte_plus_data_icon_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
+        <boolean name="hide_lte_plus_data_icon_bool" value="false" />
         <boolean name="s_config_enable_ut_bool" value="true" />
         <string-array name="s_preferred_network_mode_rat_names_string_array" num="7">
             <item value="2G" />
@@ -7994,13 +7994,13 @@
             <item value="-115" />
             <item value="-105" />
         </int-array>
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="false" />
     </carrier_config>
     <carrier_config gid1="26" mcc="440" mnc="51" sku="jp_kddi">
         <string name="carrier_name_string">povo</string>
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
-        <boolean name="hide_lte_plus_data_icon_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
+        <boolean name="hide_lte_plus_data_icon_bool" value="false" />
         <boolean name="s_config_enable_ut_bool" value="true" />
         <string-array name="s_preferred_network_mode_rat_names_string_array" num="7">
             <item value="2G" />
@@ -8027,13 +8027,13 @@
             <item value="-115" />
             <item value="-105" />
         </int-array>
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="false" />
     </carrier_config>
     <carrier_config gid1="10" mcc="440" mnc="54" sku="jp_kddi">
         <string name="carrier_name_string">au</string>
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
-        <boolean name="hide_lte_plus_data_icon_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
+        <boolean name="hide_lte_plus_data_icon_bool" value="false" />
         <boolean name="s_config_enable_ut_bool" value="true" />
         <string-array name="s_preferred_network_mode_rat_names_string_array" num="7">
             <item value="2G" />
@@ -8060,13 +8060,13 @@
             <item value="-115" />
             <item value="-105" />
         </int-array>
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="441">
         <boolean name="carrier_volte_available_bool" value="true" />
         <string name="default_vm_number_string" />
-        <boolean name="hide_lte_plus_data_icon_bool" value="true" />
+        <boolean name="hide_lte_plus_data_icon_bool" value="false" />
         <string-array name="s_preferred_network_mode_rat_names_string_array" num="7">
             <item value="2G" />
             <item value="3G" />
@@ -8090,7 +8090,7 @@
     </carrier_config>
     <carrier_config mcc="441" mnc="10">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <boolean name="s_config_enable_ut_bool" value="true" />
         <boolean name="gsm_cdma_calls_can_be_hd_audio" value="true" />
         <string name="default_vm_number_string">1417</string>
@@ -8117,9 +8117,9 @@
             <item value="9" />
             <item value="0" />
         </string-array>
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="false" />
-        <boolean name="hide_lte_plus_data_icon_bool" value="true" />
+        <boolean name="hide_lte_plus_data_icon_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="452">
         <int name="parameters_used_for_lte_signal_bar_int" value="1" />
@@ -8128,10 +8128,10 @@
     </carrier_config>
     <carrier_config mcc="454" mnc="00">
         <boolean name="allowEnablingWapPushSI" value="true" />
-        <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="enableGroupMms" value="false" />
         <boolean name="enableWapPushSI" value="true" />
         <string-array name="s_preferred_network_mode_rat_names_string_array" num="7">
@@ -8167,10 +8167,10 @@
     </carrier_config>
     <carrier_config mcc="454" mnc="02">
         <boolean name="allowEnablingWapPushSI" value="true" />
-        <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="enableGroupMms" value="false" />
         <boolean name="enableWapPushSI" value="true" />
         <string-array name="s_preferred_network_mode_rat_names_string_array" num="7">
@@ -8206,7 +8206,7 @@
     </carrier_config>
     <carrier_config mcc="454" mnc="03">
         <boolean name="allowEnablingWapPushSI" value="true" />
-        <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="enableGroupMms" value="false" />
@@ -8251,7 +8251,7 @@
     </carrier_config>
     <carrier_config mcc="454" mnc="04">
         <boolean name="allowEnablingWapPushSI" value="true" />
-        <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="enableGroupMms" value="false" />
@@ -8290,7 +8290,7 @@
     </carrier_config>
     <carrier_config mcc="454" mnc="05">
         <boolean name="allowEnablingWapPushSI" value="true" />
-        <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="enableGroupMms" value="false" />
@@ -8329,7 +8329,7 @@
     </carrier_config>
     <carrier_config mcc="454" mnc="06">
         <boolean name="allowEnablingWapPushSI" value="true" />
-        <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="enableGroupMms" value="false" />
@@ -8370,7 +8370,7 @@
     </carrier_config>
     <carrier_config mcc="454" mnc="09">
         <boolean name="allowEnablingWapPushSI" value="true" />
-        <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="enableWapPushSI" value="true" />
@@ -8408,7 +8408,7 @@
     </carrier_config>
     <carrier_config mcc="454" mnc="10">
         <boolean name="allowEnablingWapPushSI" value="true" />
-        <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="enableGroupMms" value="false" />
@@ -8446,7 +8446,7 @@
     </carrier_config>
     <carrier_config mcc="454" mnc="12">
         <boolean name="allowEnablingWapPushSI" value="true" />
-        <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="enableWapPushSI" value="true" />
@@ -8486,7 +8486,7 @@
     </carrier_config>
     <carrier_config mcc="454" mnc="13">
         <boolean name="allowEnablingWapPushSI" value="true" />
-        <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="enableWapPushSI" value="true" />
@@ -8526,7 +8526,7 @@
     </carrier_config>
     <carrier_config mcc="454" mnc="14">
         <boolean name="allowEnablingWapPushSI" value="true" />
-        <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="enableGroupMms" value="false" />
@@ -8565,7 +8565,7 @@
     </carrier_config>
     <carrier_config mcc="454" mnc="15">
         <boolean name="allowEnablingWapPushSI" value="true" />
-        <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="enableGroupMms" value="false" />
@@ -8606,10 +8606,10 @@
     </carrier_config>
     <carrier_config mcc="454" mnc="16">
         <boolean name="allowEnablingWapPushSI" value="true" />
-        <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="enableGroupMms" value="false" />
         <boolean name="enableWapPushSI" value="true" />
         <string-array name="s_preferred_network_mode_rat_names_string_array" num="7">
@@ -8645,7 +8645,7 @@
     </carrier_config>
     <carrier_config mcc="454" mnc="17">
         <boolean name="allowEnablingWapPushSI" value="true" />
-        <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="enableGroupMms" value="false" />
@@ -8686,10 +8686,10 @@
     </carrier_config>
     <carrier_config mcc="454" mnc="18">
         <boolean name="allowEnablingWapPushSI" value="true" />
-        <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="enableGroupMms" value="false" />
         <boolean name="enableWapPushSI" value="true" />
         <string-array name="s_preferred_network_mode_rat_names_string_array" num="7">
@@ -8725,10 +8725,10 @@
     </carrier_config>
     <carrier_config mcc="454" mnc="19">
         <boolean name="allowEnablingWapPushSI" value="true" />
-        <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="enableGroupMms" value="false" />
         <boolean name="enableWapPushSI" value="true" />
         <string-array name="s_preferred_network_mode_rat_names_string_array" num="7">
@@ -8764,7 +8764,7 @@
     </carrier_config>
     <carrier_config mcc="454" mnc="28">
         <boolean name="allowEnablingWapPushSI" value="true" />
-        <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="enableWapPushSI" value="true" />
@@ -8817,9 +8817,9 @@
     </carrier_config>
     <carrier_config mcc="455" mnc="01">
         <boolean name="allowEnablingWapPushSI" value="true" />
-        <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="enableGroupMms" value="false" />
         <boolean name="enableWapPushSI" value="true" />
         <string-array name="s_preferred_network_mode_rat_names_string_array" num="7">
@@ -8853,9 +8853,9 @@
     </carrier_config>
     <carrier_config mcc="455" mnc="03">
         <boolean name="allowEnablingWapPushSI" value="true" />
-        <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="enableGroupMms" value="false" />
         <boolean name="enableWapPushSI" value="true" />
         <string-array name="s_preferred_network_mode_rat_names_string_array" num="7">
@@ -8888,7 +8888,7 @@
     </carrier_config>
     <carrier_config mcc="455" mnc="04">
         <boolean name="allowEnablingWapPushSI" value="true" />
-        <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="enableGroupMms" value="false" />
         <boolean name="enableWapPushSI" value="true" />
@@ -8923,9 +8923,9 @@
     </carrier_config>
     <carrier_config mcc="455" mnc="05">
         <boolean name="allowEnablingWapPushSI" value="true" />
-        <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="enableGroupMms" value="false" />
         <boolean name="enableWapPushSI" value="true" />
         <string-array name="s_preferred_network_mode_rat_names_string_array" num="7">
@@ -8958,7 +8958,7 @@
     </carrier_config>
     <carrier_config mcc="460" mnc="00">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="enableGroupMms" value="false" />
         <boolean name="support_ims_conference_call_bool" value="true" />
         <boolean name="s_config_enable_ut_bool" value="true" />
@@ -8992,7 +8992,7 @@
     </carrier_config>
     <carrier_config mcc="460" mnc="01">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="enableGroupMms" value="false" />
         <boolean name="support_ims_conference_call_bool" value="true" />
         <boolean name="s_config_enable_ut_bool" value="true" />
@@ -9026,7 +9026,7 @@
     </carrier_config>
     <carrier_config mcc="460" mnc="02">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="enableGroupMms" value="false" />
         <boolean name="support_ims_conference_call_bool" value="true" />
         <boolean name="s_config_enable_ut_bool" value="true" />
@@ -9060,7 +9060,7 @@
     </carrier_config>
     <carrier_config mcc="460" mnc="03">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="enableGroupMms" value="false" />
         <boolean name="support_ims_conference_call_bool" value="true" />
         <boolean name="s_config_enable_ut_bool" value="true" />
@@ -9094,7 +9094,7 @@
     </carrier_config>
     <carrier_config mcc="460" mnc="04">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="enableGroupMms" value="false" />
         <boolean name="support_ims_conference_call_bool" value="true" />
         <boolean name="s_config_enable_ut_bool" value="true" />
@@ -9128,7 +9128,7 @@
     </carrier_config>
     <carrier_config mcc="460" mnc="06">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="enableGroupMms" value="false" />
         <boolean name="support_ims_conference_call_bool" value="true" />
         <boolean name="s_config_enable_ut_bool" value="true" />
@@ -9162,7 +9162,7 @@
     </carrier_config>
     <carrier_config mcc="460" mnc="07">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="enableGroupMms" value="false" />
         <boolean name="support_ims_conference_call_bool" value="true" />
         <boolean name="s_config_enable_ut_bool" value="true" />
@@ -9196,7 +9196,7 @@
     </carrier_config>
     <carrier_config mcc="460" mnc="08">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="enableGroupMms" value="false" />
         <boolean name="support_ims_conference_call_bool" value="true" />
         <boolean name="s_config_enable_ut_bool" value="true" />
@@ -9230,7 +9230,7 @@
     </carrier_config>
     <carrier_config mcc="460" mnc="09">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="enableGroupMms" value="false" />
         <boolean name="support_ims_conference_call_bool" value="true" />
         <boolean name="s_config_enable_ut_bool" value="true" />
@@ -9264,7 +9264,7 @@
     </carrier_config>
     <carrier_config mcc="460" mnc="11">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="enableGroupMms" value="false" />
         <boolean name="support_ims_conference_call_bool" value="true" />
         <boolean name="s_config_enable_ut_bool" value="true" />

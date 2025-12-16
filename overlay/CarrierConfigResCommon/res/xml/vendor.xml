@@ -61,7 +61,7 @@
         </string-array>
         <string-array name="gsm_nonroaming_networks_string_array" num="0" />
         <string-array name="gsm_roaming_networks_string_array" num="0" />
-        <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
         <boolean name="hide_lte_plus_data_icon_bool" value="false" />
         <boolean name="inflate_signal_strength_bool" value="false" />
         <boolean name="s_config_enable_ut_when_roaming_bool" value="true" />
@@ -131,7 +131,7 @@
         <boolean name="show_call_blocking_disabled_notification_always_bool" value="true" />
         <int name="duration_blocking_disabled_after_emergency_int" value="-1" />
         <boolean name="show_blocking_pay_phone_option_bool" value="true" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <boolean name="s_config_enable_side_car_for_5g_icon_bool" value="true" />
     </carrier_config>
     <carrier_config device="SO-41A" sku="jp_dcm">
@@ -142,7 +142,7 @@
         <string name="5g_icon_configuration_string">connected_mmwave:5g,connected:5g,not_restricted_rrc_idle:5g</string>
         <boolean name="ignore_sim_network_locked_events_bool" value="true" />
         <boolean name="carrier_allow_turnoff_ims_bool" value="false" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <boolean name="show_blocking_pay_phone_option_bool" value="true" />
         <boolean name="s_config_enable_side_car_for_5g_icon_bool" value="true" />
     </carrier_config>
@@ -154,7 +154,7 @@
         <boolean name="s_config_enable_side_car_for_5g_icon_bool" value="true" />
     </carrier_config>
     <carrier_config device="A103SO" sku="jp_sbm">
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
     </carrier_config>
     <carrier_config sku="rakuten">
         <string name="5g_icon_configuration_string">connected_mmwave:5g,connected:5g,not_restricted_rrc_idle:5g</string>
@@ -1379,7 +1379,7 @@
     </carrier_config>
     <carrier_config mcc="440" mnc="11" sku="rakuten">
         <string name="default_vm_number_string">1417</string>
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
         <boolean name="additional_settings_call_waiting_visibility_bool" value="false" />
         <boolean name="call_forwarding_visibility_bool" value="false" />
         <boolean name="call_barring_visibility_bool" value="false" />
@@ -1791,11 +1791,11 @@
     </carrier_config>
     <carrier_config mcc="454" mnc="00">
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="454" mnc="02">
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="454" mnc="03">
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
@@ -1816,7 +1816,7 @@
     </carrier_config>
     <carrier_config mcc="454" mnc="10">
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="454" mnc="11">
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
@@ -1838,7 +1838,7 @@
     </carrier_config>
     <carrier_config mcc="454" mnc="16">
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="454" mnc="17">
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
@@ -1847,18 +1847,18 @@
     </carrier_config>
     <carrier_config mcc="454" mnc="18">
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="454" mnc="19">
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="454" mnc="20">
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="454" mnc="29">
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
-        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="455" mnc="01">
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
