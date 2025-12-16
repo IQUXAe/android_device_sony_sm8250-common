@@ -2,4 +2,5 @@ runtime_resource_overlay {
     name: "SonyEdoSettingsRes",
     resource_dirs: ["res"],
     vendor: true,
+    sdk_version: "current",
 }
