@@ -18,4 +18,7 @@
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message">
         Locate the fingerprint sensor on the side of your phone.</string>
+    <!-- Dolby Atmos -->
+    <string name="dolby_atmos_title">Dolby Atmos</string>
+    <string name="dolby_atmos_summary">Enhanced audio experience</string>
 </resources>
